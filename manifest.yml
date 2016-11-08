@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: deleteme-kad3
+  host: deleteme-kad3
+  disk_quota: 1024M
+  services:
+  - deleteme-kad3-personality_insights
